@@ -1,18 +1,7 @@
 defmodule Hexacore do
   @moduledoc """
-  Documentation for Hexacore.
+  One hexagonal famous game.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Hexacore.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
+  @type color :: :red | :orange | :blue | :white
 end
